@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн-торговля</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Онлайн-торговля</h1>
+        <nav>
+            <a href="{{ url_for('index') }}">Главная</a>
+            <a href="{{ url_for('add_ad') }}">Добавить объявление</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Объявления</h2>
+        <ul>
+            {% for ad in ads %}
+            <li>
+                <h3>{{ ad.title }}</h3>
+                <p>{{ ad.description }}</p>
+                <p>Цена: {{ ad.price }} руб.</p>
+            </li>
+            {% endfor %}
+        </ul>
+    </main>
+</body>
+</html>

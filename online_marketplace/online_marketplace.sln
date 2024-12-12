@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "online_marketplace", "online_marketplace\online_marketplace.csproj", "{462744CF-6B1F-45E1-B07A-775BBEAA99AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{07EA30EB-CAC1-47E3-9FFA-315D52E122E1}"
+	ProjectSection(SolutionItems) = preProject
+		app.py = app.py
+		add_ad.html = add_ad.html
+		convert_encoding.py = convert_encoding.py
+		index.html = index.html
+		style.css = style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{462744CF-6B1F-45E1-B07A-775BBEAA99AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462744CF-6B1F-45E1-B07A-775BBEAA99AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462744CF-6B1F-45E1-B07A-775BBEAA99AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462744CF-6B1F-45E1-B07A-775BBEAA99AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
